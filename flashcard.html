@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periodic Table Flashcards</title>
+    <link rel="stylesheet" href="Flashcard.css">
+</head>
+<body>
+    <div class="container">
+        <h1>⚛️ Periodic Table Flashcards</h1>
+        
+        <div class="stats">
+            <div class="stat-item">
+                <span class="stat-number" id="currentCard">1</span>
+                <span>Current</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" id="totalCards">20</span>
+                <span>Total</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" id="correctCount">0</span>
+                <span>Correct</span>
+            </div>
+        </div>
+
+        <div class="progress-bar">
+            <div class="progress-fill" id="progressFill"></div>
+        </div>
+
+        <div class="flashcard-container">
+            <div class="flashcard" id="flashcard">
+                <div class="card-face card-front">
+                    <div class="element-number" id="elementNumber">1</div>
+                    <div class="element-symbol" id="elementSymbol">H</div>
+                </div>
+                <div class="card-face card-back">
+                    <div class="element-name" id="elementName">Hydrogen</div>
+                    <div class="element-details" id="elementDetails">
+                        Atomic Mass: 1.008<br>
+                        Group: 1 (Alkali metals)<br>
+                        State: Gas
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button class="btn-secondary" onclick="previousCard()">← Previous</button>
+            <button class="btn-primary" onclick="flipCard()">Flip Card</button>
+            <button class="btn-secondary" onclick="nextCard()">Next →</button>
+        </div>
+        
+        <div class="controls">
+            <button class="btn-primary" onclick="markCorrect()">✓ Know It</button>
+            <button class="btn-secondary" onclick="shuffleCards()">🔀 Shuffle</button>
+        </div>
+
+        <div class="hint">
+            💡 Click the card or press spacebar to flip it!
+        </div>
+    </div>
+
+<script src="Flashcard.js"></script>
+</body>
+</html>
