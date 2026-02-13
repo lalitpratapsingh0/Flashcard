@@ -8,13 +8,13 @@
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             line-height: 1.6;
             color: #2d3748;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #ed9a0a 0%, #eace1a 100%);
             min-height: 100vh;
         }
 
         .container {
             max-width: 1200px;
-            margin: 0 auto;
+            margin: 20 auto;
             padding: 0 20px;
         }
 
@@ -39,7 +39,7 @@
         .logo {
             font-size: 2rem;
             font-weight: 800;
-            background: linear-gradient(135deg, #667eea, #764ba2);
+            background: linear-gradient(135deg, #e48b0d, #ecfd06);
             -webkit-background-clip: text;
             background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -55,19 +55,19 @@
 
         .nav-links a {
             text-decoration: none;
-            color: #4a5568;
+            color: #edda0f;
             font-weight: 500;
             transition: all 0.3s ease;
             position: relative;
         }
 
         .nav-links a:hover {
-            color: #667eea;
+            color: #eb9411;
             transform: translateY(-2px);
         }
 
         .cart-btn {
-            background: linear-gradient(135deg, #667eea, #764ba2);
+            background: linear-gradient(135deg, #e48b0d, #ecfd06);
             color: white;
             border: none;
             padding: 0.75rem 1.5rem;
@@ -80,7 +80,7 @@
 
         .cart-btn:hover {
             transform: translateY(-2px);
-            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+            box-shadow: 0 10px 25px rgba(12, 203, 145, 0.4);
         }
 
         .cart-count {
@@ -120,7 +120,7 @@
             font-size: 3.5rem;
             font-weight: 800;
             margin-bottom: 1rem;
-            background: linear-gradient(135deg, #667eea, #764ba2);
+            background: linear-gradient(135deg, #e48b0d, #ecfd06);
             -webkit-background-clip: text;
             background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -169,7 +169,7 @@
         }
 
         .category-card.active {
-            background: linear-gradient(135deg, #667eea, #764ba2);
+            background: linear-gradient(135deg, #3c5c13, #fd6506);
             color: white;
             transform: translateY(-5px);
         }
